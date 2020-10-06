@@ -22,7 +22,6 @@ public class SingleCircleChart: UIView {
     
     private func commonInit(){
         renderer.updateBounds(bounds)
-        renderer.trackColor = .systemGray
         renderer.progressColor = .red
         renderer.lineWidth = 15
         layer.addSublayer(renderer.trackLayer)

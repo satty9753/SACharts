@@ -57,7 +57,6 @@ class CircleRenderer{
 
         let ring = UIBezierPath(arcCenter: center, radius: radius, startAngle: startAngle, endAngle: endAngle, clockwise: true)
         trackLayer.path = ring.cgPath
-
         trackLayer.shadowColor = UIColor.systemGray.cgColor
     }
     
