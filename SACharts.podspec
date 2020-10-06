@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "Gradient Circle Charts includes pieChart, SingleArcCharts, and MultipleArcsCharts."
 
-  spec.homepage     = "https://github.com/satty9753/SACharts"
+  spec.homepage     = "https://github.com/satty9753/SACharts.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -62,7 +62,8 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
+  spec.platform     = :ios, "11.0"
+  spec.swift_version = '5.0'
   # spec.platform     = :ios, "13.0"
 
   #  When using multiple platforms
@@ -78,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/satty9753/SACharts", :tag=>"1.0.0" }
+  spec.source       = { :git => "https://github.com/satty9753/SACharts.git", :tag=>"1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
