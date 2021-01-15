@@ -1,5 +1,5 @@
 # SACharts
-## This is a framework all about gradient chart.
+This is a framework all about gradient chart.
 
 
 
