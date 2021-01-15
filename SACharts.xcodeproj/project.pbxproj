@@ -11,6 +11,7 @@
 		32BB7E89246927A900170D72 /* CircleRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BB7E87246927A900170D72 /* CircleRenderer.swift */; };
 		32BB7E8A246927A900170D72 /* SingleCircleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BB7E88246927A900170D72 /* SingleCircleChart.swift */; };
 		32BB7E8C246927DA00170D72 /* ChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BB7E8B246927DA00170D72 /* ChartModel.swift */; };
+		32F69F3925B17E2F00DED3B7 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F69F3825B17E2F00DED3B7 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		32BB7E87246927A900170D72 /* CircleRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleRenderer.swift; sourceTree = "<group>"; };
 		32BB7E88246927A900170D72 /* SingleCircleChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleCircleChart.swift; sourceTree = "<group>"; };
 		32BB7E8B246927DA00170D72 /* ChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartModel.swift; sourceTree = "<group>"; };
+		32F69F3825B17E2F00DED3B7 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				32BB7E7F2469275300170D72 /* SACharts.h */,
 				32BB7E87246927A900170D72 /* CircleRenderer.swift */,
 				32BB7E88246927A900170D72 /* SingleCircleChart.swift */,
+				32F69F3825B17E2F00DED3B7 /* UIColorExtension.swift */,
 				32BB7E8B246927DA00170D72 /* ChartModel.swift */,
 				32BB7E802469275300170D72 /* Info.plist */,
 			);
@@ -144,6 +147,7 @@
 				32BB7E8A246927A900170D72 /* SingleCircleChart.swift in Sources */,
 				32BB7E8C246927DA00170D72 /* ChartModel.swift in Sources */,
 				32BB7E89246927A900170D72 /* CircleRenderer.swift in Sources */,
+				32F69F3925B17E2F00DED3B7 /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
