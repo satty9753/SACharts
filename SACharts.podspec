@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SACharts"
-  spec.version      = "1.0.3"
+  spec.version      = "1.0.4"
   spec.summary      = "Gradient Circle Charts."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/satty9753/SACharts.git", :tag=>"1.0.3" }
+  spec.source       = { :git => "https://github.com/satty9753/SACharts.git", :tag=>"1.0.4" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -105,7 +105,12 @@ Pod::Spec.new do |spec|
   #
 
   # spec.resource  = "icon.png"
-  # spec.resources = "Resources/*.png"
+  spec.resources = "SACharts/*.xib"
+  spec.resource_bundles = {
+   'SACharts' => [
+       'Pod/**/*.xib'
+   ]
+ }
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 

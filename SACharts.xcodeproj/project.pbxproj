@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		322AA6CF25B82759006A0BA1 /* CirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322AA6CC25B82759006A0BA1 /* CirclesView.swift */; };
+		322AA6D025B82759006A0BA1 /* CirclesRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322AA6CD25B82759006A0BA1 /* CirclesRenderer.swift */; };
+		322AA6D125B82759006A0BA1 /* ConcentricChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322AA6CE25B82759006A0BA1 /* ConcentricChart.swift */; };
+		322AA6F725B82FBE006A0BA1 /* ClassPointCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322AA6F525B82FBE006A0BA1 /* ClassPointCell.swift */; };
+		322AA6F825B82FBE006A0BA1 /* ClassPointCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 322AA6F625B82FBE006A0BA1 /* ClassPointCell.xib */; };
 		32BB7E812469275300170D72 /* SACharts.h in Headers */ = {isa = PBXBuildFile; fileRef = 32BB7E7F2469275300170D72 /* SACharts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32BB7E89246927A900170D72 /* CircleRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BB7E87246927A900170D72 /* CircleRenderer.swift */; };
 		32BB7E8A246927A900170D72 /* SingleCircleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BB7E88246927A900170D72 /* SingleCircleChart.swift */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		322AA6CC25B82759006A0BA1 /* CirclesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclesView.swift; sourceTree = "<group>"; };
+		322AA6CD25B82759006A0BA1 /* CirclesRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirclesRenderer.swift; sourceTree = "<group>"; };
+		322AA6CE25B82759006A0BA1 /* ConcentricChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcentricChart.swift; sourceTree = "<group>"; };
+		322AA6F525B82FBE006A0BA1 /* ClassPointCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassPointCell.swift; sourceTree = "<group>"; };
+		322AA6F625B82FBE006A0BA1 /* ClassPointCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassPointCell.xib; sourceTree = "<group>"; };
 		32BB7E7C2469275300170D72 /* SACharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SACharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BB7E7F2469275300170D72 /* SACharts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SACharts.h; sourceTree = "<group>"; };
 		32BB7E802469275300170D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +67,11 @@
 				32BB7E7F2469275300170D72 /* SACharts.h */,
 				32BB7E87246927A900170D72 /* CircleRenderer.swift */,
 				32BB7E88246927A900170D72 /* SingleCircleChart.swift */,
+				322AA6CD25B82759006A0BA1 /* CirclesRenderer.swift */,
+				322AA6CE25B82759006A0BA1 /* ConcentricChart.swift */,
+				322AA6F525B82FBE006A0BA1 /* ClassPointCell.swift */,
+				322AA6F625B82FBE006A0BA1 /* ClassPointCell.xib */,
+				322AA6CC25B82759006A0BA1 /* CirclesView.swift */,
 				32F69F3825B17E2F00DED3B7 /* UIColorExtension.swift */,
 				32BB7E8B246927DA00170D72 /* ChartModel.swift */,
 				32BB7E802469275300170D72 /* Info.plist */,
@@ -134,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322AA6F825B82FBE006A0BA1 /* ClassPointCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,10 +160,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322AA6D025B82759006A0BA1 /* CirclesRenderer.swift in Sources */,
+				322AA6CF25B82759006A0BA1 /* CirclesView.swift in Sources */,
+				322AA6D125B82759006A0BA1 /* ConcentricChart.swift in Sources */,
 				32BB7E8A246927A900170D72 /* SingleCircleChart.swift in Sources */,
 				32BB7E8C246927DA00170D72 /* ChartModel.swift in Sources */,
 				32BB7E89246927A900170D72 /* CircleRenderer.swift in Sources */,
 				32F69F3925B17E2F00DED3B7 /* UIColorExtension.swift in Sources */,
+				322AA6F725B82FBE006A0BA1 /* ClassPointCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
