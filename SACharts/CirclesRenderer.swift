@@ -12,12 +12,12 @@ import UIKit
 class CirclesRenderer{
     var trackColor: UIColor = .trackerColor{
            didSet{
-            trackLayers.map{ $0.strokeColor = trackColor.cgColor }
+            trackLayers.forEach{ $0.strokeColor = trackColor.cgColor }
            }
        }
     var lineWidth: CGFloat = 20{
         didSet{
-            trackLayers.map{ $0.lineWidth = lineWidth }
+            trackLayers.forEach{ $0.lineWidth = lineWidth }
         }
     }
     var startAngle: CGFloat = CGFloat(Double.pi/2){

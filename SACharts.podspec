@@ -106,11 +106,11 @@ Pod::Spec.new do |spec|
 
   # spec.resource  = "icon.png"
   spec.resources = "SACharts/*.xib"
-  spec.resource_bundles = {
-   'SACharts' => [
-       'Pod/**/*.xib'
-   ]
- }
+#   spec.resource_bundles = {
+#    'SACharts' => [
+#        'Pod/**/*.xib'
+#    ]
+#  }
 
   # spec.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
