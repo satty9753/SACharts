@@ -6,6 +6,10 @@ This is a framework all about gradient chart.
 ```
 pod 'SACharts'
 ```
+### swift package manager
+```
+.package(url:"https://github.com/satty9753/SACharts")
+```
 ## Demo
 <img src="https://github.com/satty9753/SACharts/blob/master/demo_images/singleArc.PNG?raw=true"  alt="singleArc" width="300">
 
